@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>We Love You, Grandpa & Grandma</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Background music -->
+  <audio autoplay loop>
+    <source src="music/soft-melody.mp3" type="audio/mpeg" />
+  </audio>
+
+  <main class="container">
+    <!-- Big love card -->
+    <section class="big-card">
+      <h1>Dear Grandpa & Grandma,</h1>
+      <p>You are the sunshine of our lives. We love you so deeply ❤️</p>
+    </section>
+
+    <!-- Love button -->
+    <button class="love-button" onclick="revealSecret()">💖 Click Me 💖</button>
+    <p id="secret-message" class="secret" style="display:none;">
+      You are the heart of this family. Thank you for all the warmth, wisdom, and hugs. We love you forever.
+    </p>
+
+    <!-- Photo gallery with 12 photos -->
+    <section class="photo-gallery">
+      <div class="photo-card"><img src="/download.png" alt="Memory 1" /></div>
+      <div class="photo-card"><img src="/download.jpg" alt="Memory 2" /></div>
+      <div class="photo-card"><img src="/5717369_0.webp" alt="Memory 3" /></div>
+      <div class="photo-card"><img src="/images.png" alt="Memory 4" /></div>
+      <div class="photo-card"><img src="/12.png" alt="Memory 5" /></div>
+      <div class="photo-card"><img src="/82214d.jpg" alt="Memory 6" /></div>
+      <div class="photo-card"><img src="./grandma-i-love-you_1153651-40.avif" alt="Memory 7" /></div>
+      <div class="photo-card"><img src="./images2.jpg" alt="Memory 8" /></div>
+      <div class="photo-card"><img src="/Grandmaloveyoulogo.png" alt="Memory 9" /></div>
+      <div class="photo-card"><img src="/99a7a7136e412ff3abea33748ab43c09-love-grandma-lettering.webp" alt="Memory 10" /></div>
+      
+    </section>
+
+    <!-- Final appreciation card -->
+    <section class="final-card">
+      <h1>my sweet sweet granparents.</h1>
+        <p>We cherish every moment with you. You’ve given us a lifetime of love. We miss you so much. 💕</p>
+    </section>
+  </main>
+
+  <!-- Heart container -->
+  <div id="heart-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
